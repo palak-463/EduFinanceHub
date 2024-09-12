@@ -1,0 +1,18 @@
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    width: 700px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+  }
+  
+  .search-input {
+    padding-left: 30px; /* Adjust padding to ensure space for the icon */
+    width: calc(100% - 40px); /* Adjust width as needed */
+  }
+  

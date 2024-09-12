@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+.card {
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	border-radius: 6px;
+	margin: 0 0 1rem 0;
+	display: flex;
+	flex-direction: column;
+   
+}
+.card__img {
+	width: 100%;
+	height: 25rem;
+	border-radius: 6px 6px 0 0;
+	overflow: hidden;
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+.cart__content {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex: 1 1 auto;
+	p {
+		flex: 1 1 auto;
+	}
+	a {
+		display: inline-block;
+		background-color: background-color_1;
+		color: white;
+		text-decoration: none;
+		padding: 0.5rem 1rem;
+		border-radius: 50px;
+		margin: 1rem 0 0 0;
+	}
+}
+@media screen and (min-width: 991px) {
+	.cards {
+		display: flex;
+		flex-direction: row;
+		.card {
+			flex: 1;
+			margin: 1%;
+		}
+	}
+}
+
+  .submit-btn-txt{
+    color: black;
+  }
+ .btn-submit{
+     -left: 500px;
+  }
+
+   
+ 
+
+  .btn-custom1 {
+    width: 400px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    font-size: 16px; /* Optional: adjust font size */
+    margin-right: 200px;
+    
+    margin-bottom: 20px;
+  }
+
+  .btn-custom2 {
+    width: 400px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    font-size: 16px; /* Optional: adjust font size */
+  }
+
+  .button-group {
+    display: flex;
+    gap: 10px; /* Adjust the gap between buttons as needed */
+}
+
+  
+
+  .age-box{
+    margin-left: 50px;
+  }
+
+  .high-risk-text{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .percentage-card{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .percentage-card ul{
+    margin-left: 70px;
+  }
+
+  .btn-learn{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+  }
+
+  .pie-chart-title{
+	margin-left: 200px;
+  }
+  .references{
+
+	color: black;
+  }

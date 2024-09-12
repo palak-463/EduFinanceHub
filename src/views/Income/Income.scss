@@ -1,0 +1,79 @@
+.Income{
+    margin: 0;
+    
+    .module{
+        padding: 0;
+    }
+    .container-income{
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.1);
+        padding: 2.5rem;
+        margin: 1rem;
+
+        .income-head{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 3rem 0 3rem;
+
+            .legend{
+                display: flex;
+                align-items: center;
+
+                h4 {
+                    color: #1C8FFC;
+                }
+                .circle{
+                    width: 10px;
+                    height: 10px;
+                    display: flex;
+                    align-items: baseline;
+                    padding: 4px;
+                    background-color: #1C8FFC;
+                    border-radius: 50%;
+                    margin: 11px 11px;
+                }
+            }
+
+        }
+        .income-chart{
+            width: 100%;
+            padding: 3rem;
+        }
+
+        .content-container{
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+        .balance-income{
+            padding: 3rem 1rem 3rem 1rem;
+            width: 20rem;
+
+            .cc{
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: row;
+                align-items: baseline;
+            }
+
+            #symbol{
+                font-size: 2rem;
+                margin-left: 0.3rem;
+            }
+
+            h3{
+                font-size: 3rem;
+                margin: 0;
+                font-weight: 500;
+            }
+        }
+        .divider{
+            border: 1px solid rgb(205, 205, 205);
+            height: 30rem;
+            margin-left: 2rem;
+        }
+    }
+
+}

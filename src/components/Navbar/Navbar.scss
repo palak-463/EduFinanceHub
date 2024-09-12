@@ -1,0 +1,120 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem 2rem 10rem;
+    background-color: #FAFBFB;
+
+    .logo{
+        font-size: 1.8rem;
+    }
+    
+    a:link, a:visited, a:active {
+        text-decoration:none;
+        color: black;
+        margin-left: 0.5rem;
+    }
+
+    .flexy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+            a {
+                margin-left: 3rem;
+            }
+    }
+
+    .add-btn {
+        border: none;
+        margin-left: 1rem;
+        background: none;
+        font-size: 2rem;
+        border-radius: 50%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+    }
+
+    .add-btn:hover{
+        background-color: rgb(241, 241, 241);
+    }
+
+    .button-out {
+        border: 1px solid rgb(175, 175, 175);
+        padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+        border-radius: 5px;
+        margin-left: 1rem;
+        background: none;
+        transition: all .5s ease;
+        color: rgb(39, 39, 39);
+    }
+
+    .button-out:hover {
+        color: #f0f0f0;
+        background-color: rgb(74, 74, 74);
+        border: 1px solid rgb(74, 74, 74);
+    }
+
+    .navUser {
+
+        .frame-img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            margin-right: 1rem;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+.drop-screen{
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.dropdown {
+    position: absolute;
+    top: 60px;
+    width: 197px;
+    transform: translateX(510%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 1rem;
+    overflow: hidden;
+    transition: height 1s ease;
+    z-index: 20000;
+    box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.05);
+    
+    button {
+        background: none;
+        border: none;
+    }
+
+    .dropdown-item {
+        height: 40px;
+        margin-top: 0.2rem;
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+        transition: background 500ms;
+        padding: 0.5rem;
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    .dropdown-item:hover {
+        background-color: rgb(241, 241, 241);
+    }
+
+}
