@@ -1,48 +1,34 @@
-<<<<<<< HEAD
-# Moneyfy
+# 🎓 EduFinanceHub
 
-MoneyFy is a platform that helps you control your spending and achieve your savings goals.
+EduFinanceHub is a financial literacy platform aimed at students, helping them manage their finances and understand key investment principles.
 
-- 💰 Add your incomes 
-- 💸 Control your expenses
-- 📈 Set your target
-- 🎯 Calculate how long it will take you to reach it
-<br> <br>
-## ✨  Technology used
+- 💰 **Add Your Incomes**: Keep track of your income sources.
+- 💸 **Manage Your Expenses**: Record and categorize your daily expenses.
+- 🎯 **Set Financial Goals**: Calculate how long it will take to reach your savings targets.
+- 🔢 **Investment Risk Calculation**: Using the 100-Age rule, determine whether you're better suited for high-risk or low-risk investments.
+- 🎮 **Engaging Financial Games**:
+  - 🕵️ **Trustworthy Investor**: Guess which investor is trustworthy.
+  - ☕ **Coffee Cost Calculator**: Discover how much your daily coffee will cost you in the long run, factoring in inflation.
+- 💼 **Investment Options Overview**: Explore different investment opportunities.
+- 🎓 **Scholarship Finder**: Learn about scholarships available to students.
+- 🤖 **AI Chatbot**: Get answers to financial literacy-related questions instantly!
+
+<br>
+
+## ✨ Technologies Used
 
 | Frontend (Web) | Backend (API REST) |
-| ------- |  ----- |
-| JavaScript | NodeJS  |
-| React | Express  |
-| HTML | MongoDB  |
-| SASS | Mongoose  |
+| -------------- | ------------------ |
+| JavaScript     | Node.js            |
+| React          | Express            |
+| HTML           | MongoDB            |
+| SASS           | Mongoose           |
 
-<br> <br>
+<br>
 
 ## 🧑🏼‍🚀 Trial User
-If you don't want to register you can use this user that already has some data for testing purposes
+
+You can use the following credentials to explore EduFinanceHub without registering:
 ```sh
-mail: mail@mail.com
-pass: 12345678
-```
-<br> 
-
-## 📷 ️Screens
-### Dashboard
-<img src="https://res.cloudinary.com/dfbloaduq/image/upload/v1654872702/MoneyFy/Captura_de_Pantalla_2022-06-10_a_las_16.47.59_xutcfb.png">
-<br>
-
-### Incomes
-<img src="https://res.cloudinary.com/dfbloaduq/image/upload/v1654872702/MoneyFy/Captura_de_Pantalla_2022-06-10_a_las_16.48.12_zvfkwd.png">
-<br>
-
-### Expenses
-<img src="https://res.cloudinary.com/dfbloaduq/image/upload/v1654872702/MoneyFy/Captura_de_Pantalla_2022-06-10_a_las_16.48.22_gwgejh.png">
-<br>
-
-### Goals
-<img src="https://res.cloudinary.com/dfbloaduq/image/upload/v1654872701/MoneyFy/Captura_de_Pantalla_2022-06-10_a_las_16.48.56_d7f8kf.png">
-<br>
-=======
-# EduFinanceHub
->>>>>>> 24523d97d5a27bb314a25cf08c57d9414c58ad8b
+email: trialuser@mail.com
+password: password123
