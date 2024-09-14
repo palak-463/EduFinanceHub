@@ -17,11 +17,11 @@ EduFinanceHub is a financial literacy platform aimed at students, helping them m
 
 ## ✨ Technologies Used
 
-| Frontend (Web) | Backend (API REST) |
+| Frontend (Web) | Backend            |
 | -------------- | ------------------ |
 | JavaScript     | Node.js            |
-| React          | Express            |
+| React.js       | Express.js         |
 | HTML           | MongoDB            |
-| SASS           | Mongoose           |
+| CSS            | Mongoose           |
 
 <br>
