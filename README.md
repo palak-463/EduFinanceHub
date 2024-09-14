@@ -25,10 +25,3 @@ EduFinanceHub is a financial literacy platform aimed at students, helping them m
 | SASS           | Mongoose           |
 
 <br>
-
-## 🧑🏼‍🚀 Trial User
-
-You can use the following credentials to explore EduFinanceHub without registering:
-```sh
-email: trialuser@mail.com
-password: password123
