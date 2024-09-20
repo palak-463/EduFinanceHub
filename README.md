@@ -1,4 +1,4 @@
-# 🎓 EduFinanceHub
+# 🎓 Edu Finance Hub
 
 EduFinanceHub is a financial literacy platform aimed at students, helping them manage their finances and understand key investment principles.
 
